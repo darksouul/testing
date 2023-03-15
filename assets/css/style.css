@@ -1036,28 +1036,34 @@ section {
 }
 
 @media(max-width:767px) {
+  .testimonial-section {
+    
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .testi-img {
     margin-bottom: 0px;
   }
   .testi-img .img-box {
     max-width: 300px;
     margin-top: 13px;
+    margin-bottom: 50px;
   }
   .style_helper1{
-    font-size: 1.5em;
+    font-size: 2em;
     position:relative; 
     top:-4.5px;
   }
   
   .style_helper2{
-    font-size: 1.5em; 
+    font-size: 2em; 
     float: right;
   }
   .testi-img .img-box-inner img {
     max-width: 230px;
   }
   .testi-item p {
-    font-size: 14px;
+    font-size: 16px;
   
   }
 }
