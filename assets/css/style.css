@@ -4,15 +4,17 @@
 
 * {
   box-sizing: border-box;
+  
 }
 
-body{
-  background-color: #F9F7F7;
+body {
+  background-color: white;
 }
 
-a{
+a {
   text-decoration: none;
 }
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -449,16 +451,16 @@ section {
 }
 
 .section-title h2 {
-  font-size: 13px;
+  font-size: 22.62px;
   letter-spacing: 1px;
-  font-weight: 700;
+  font-weight: 500;
   padding: 8px 20px;
   margin: 0;
-  background: #e7f1fd;
-  color: #FE61A6;
+  color:#656565;;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
+  font-family: "Poppins";
 }
 
 .section-title h3 {
@@ -825,12 +827,16 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials {
+/* .testimonials {
   padding: 80px 0;
   background: url("../img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
+  height: 400px;
+  margin-left: 40px;
+  margin-right: 40px;
+
 }
 
 .testimonials::before {
@@ -862,6 +868,7 @@ section {
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
+  
 }
 
 .testimonials .testimonial-item h3 {
@@ -879,7 +886,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  /* color: rgba(255, 255, 255, 0.4); */
+ color: rgba(255, 255, 255, 0.4);
   font-size: 26px;
 }
 
@@ -921,6 +928,116 @@ section {
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
     width: 80%;
+  }
+} */
+
+.testimonial-section {
+  background-color: white;
+  padding: 80px 0;
+  height: 70vh;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.testi-img .img-box {
+  max-width: 360px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+
+
+.testi-img .img-box-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.testi-img .img-box-inner img {
+  max-width: 310px;
+}
+
+.testimonial-section .carousel-inner {
+  margin-bottom: 20px;
+}
+
+.testimonial-section .carousel-control-prev {
+  margin-right: 10px;
+}
+
+.testimonial-section .carousel-control-next,
+.testimonial-section .carousel-control-prev {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  background-color: #fb9c9a;
+  display: inline-flex;
+  border-radius: 50%;
+}
+
+.testimonial-section .carousel-control-prev img,
+.testimonial-section .carousel-control-next img {
+  width: 15px;
+}
+
+
+.testi-item p {
+  font-size: 18px;
+
+}
+
+
+.quote-icon-left,
+.quote-icon-right {
+  color: #FFC5DE;
+  font-size: 25px;
+}
+.quote-icon-right{
+  left: 997px;
+}
+
+.style_helper1{
+  font-size: 5em;
+  position:relative; 
+  top:-10px;
+}
+
+.style_helper2{
+  font-size: 5em; 
+  float: right;
+}
+
+
+/* Responsive */
+@media(max-width:991px) {
+  .testi-img .img-box {
+    max-width: 300px;
+    margin-top: 13px;
+  }
+
+  .style_helper1{
+    font-size: 2em;
+    position:relative; 
+    top:-4.5px;
+  }
+  
+  .style_helper2{
+    font-size: 2em; 
+    float: right;
+  }
+  .testi-img .img-box-inner img {
+    max-width: 230px;
+  }
+}
+
+@media(max-width:767px) {
+  .testi-img {
+    margin-bottom: 25px;
   }
 }
 
@@ -1283,7 +1400,6 @@ section {
 .contact .info-box {
   color: #444444;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
   padding: 20px 0 30px 0;
 }
 
@@ -1523,8 +1639,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #FE61A6;
-  ;
+  background: #FE61A6;;
   color: #fff;
   text-decoration: none;
 }
@@ -1599,6 +1714,7 @@ a {
   padding: 4rem;
   margin: 0 auto;
   width: max-content;
+  background: #F9F7F7;
 }
 
 .card {
@@ -1670,7 +1786,8 @@ a {
   height: 3em;
   margin-right: 0.5em;
 }
-.noHover{
+
+.noHover {
   pointer-events: none;
 }
 
