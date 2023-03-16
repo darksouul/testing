@@ -579,13 +579,13 @@ section {
   }
 
   .style_helper1{
-    font-size: 1.5em;
+    font-size: 2em;
     position:relative; 
     top:-4.5px;
   }
   
   .style_helper2{
-    font-size: 1.5em; 
+    font-size: 2em; 
     float: right;
   }
   .testi-img .img-box-inner img {
@@ -620,25 +620,7 @@ section {
 
   }
 }
-@media (max-height: 500px) {
-  .style_helper1{
-    font-size: 1em;
-    position:relative; 
-    top:-4.5px;
-  }
 
-  .style_helper2{
-    font-size: 1em; 
-    float: right;
-  }
-  .testi-img .img-box-inner img {
-    max-width: 100px;
-  }
-  .testi-item p {
-    font-size: 10px;
-
-  }
-}
 
 
 /*--------------------------------------------------------------
