@@ -621,14 +621,6 @@ section {
   }
 }
 @media (max-height: 500px) {
-  .testi-img {
-    margin-bottom: 20px;
-    margin-bottom: 0px;
-  }
-  .testi-img .img-box {
-    max-width: 250px;
-    margin-top: 10px;
-  }
   .style_helper1{
     font-size: 1em;
     position:relative; 
@@ -640,7 +632,7 @@ section {
     float: right;
   }
   .testi-img .img-box-inner img {
-    max-width: 220px;
+    max-width: 100px;
   }
   .testi-item p {
     font-size: 10px;
