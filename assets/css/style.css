@@ -603,20 +603,20 @@ section {
     margin-top: 13px;
   }
   .style_helper1{
-    font-size: 1em;
+    font-size: 1.5em;
     position:relative; 
     top:-4.5px;
   }
 
   .style_helper2{
-    font-size: 1em; 
+    font-size: 1.5em; 
     float: right;
   }
   .testi-img .img-box-inner img {
     max-width: 230px;
   }
   .testi-item p {
-    font-size: 12px;
+    font-size: 14px;
 
   }
 }
