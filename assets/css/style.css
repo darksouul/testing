@@ -579,17 +579,21 @@ section {
   }
 
   .style_helper1{
-    font-size: 2em;
+    font-size: 1em;
     position:relative; 
     top:-4.5px;
   }
   
   .style_helper2{
-    font-size: 2em; 
+    font-size: 1em; 
     float: right;
   }
   .testi-img .img-box-inner img {
-    max-width: 230px;
+    max-width: 200px;
+  }
+  .testi-item p {
+    font-size: 10px;
+
   }
 }
 
